@@ -1,0 +1,9 @@
+export const REGISTER_USER = "registerUser";
+export const LOGIN_USER = "loginUser";
+export const LOAD_USER = "loadUser";
+export const LOGOUT_USER = "logout";
+export const SET_USER = "setUser";
+export const SET_TOKEN = "setToken";
+export const CLEAR_USER = "clearUser";
+export const IS_AUTHENTICATED = "isAuthenticated";
+export const GET_USER = "getUser";

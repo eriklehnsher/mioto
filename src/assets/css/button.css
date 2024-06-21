@@ -1,0 +1,33 @@
+/* button.css */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28d8ff;
+    /* Màu nền */
+    color: white;
+    /* Màu chữ */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Thêm transition để hiệu ứng mượt mà */
+}
+
+.button:hover {
+    /* Màu nền khi hover */
+    background-color: #24b6d7;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5), 0 0 60px rgba(11, 0, 0, 0.001);
+    /* Hiệu ứng drop-shadow khi hover */
+}
+
+.button:focus {
+    outline: none;
+    /* Loại bỏ đường viền khi focus */
+}
+/* src="../Home/images/cover-foto.jpg"
+src="../Home/images/profile-photo.jpg" */
